@@ -1,0 +1,943 @@
+/* ==========================================================================
+        Template Name: Morix - Sass & App Landing HTML5 Template
+    Template URI: http://dreamroadtech.com/templates/morix-preview/
+    Description: Morix - Sass & App Landing HTML5 Template
+    Author: dreamroadtech
+    Author URI: http://www.dreamroadtech.com
+    Version: 1.0
+  ========================================================================== */
+
+/* CSS Index 
+-----------------------------------
+1. Template default css
+2. Header css
+3. Home css
+4. Features css
+5. Developer css
+6. History css
+7. Process css
+8. Action css
+9. Software css
+10. Price css
+11. Testimonial css
+12. News css
+13. Blog page css 
+14. Blog-Side-bar css
+15. Footer css
+*/
+
+/* ==========================================================================
+   Google Font
+   ========================================================================== */
+   @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+   @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap');
+
+/*...................................
+   1. Template default css
+   ................................... */
+
+html {
+  overflow-x: hidden;
+
+}
+   
+body {
+  font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
+  font-size: 16px;
+}
+
+a,
+.button {
+  -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+}
+
+a:focus,
+.btn:focus {
+  text-decoration: none;
+  outline: none;
+  box-shadow: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Montserrat', sans-serif;
+
+  font-weight: 500;
+  color: #131943;
+}
+
+p {
+  font-family: 'Karla', sans-serif;
+  font-size: 14px;
+  line-height: 32px;
+  color: #566977;
+}
+
+ul {
+  list-style: outside none none;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+.form-control:focus {
+  outline: 0;
+  box-shadow:none;
+}
+
+/*------ 1. default-css ------*/
+.section-padding-top{
+  padding-top: 100px;
+}
+.section-padding-bottom{
+  padding-bottom: 100px;
+}.section-padding-top{
+  padding: 0 100px;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+/*...................................
+   2. Header css started
+   ................................... */
+  .header{
+    background:url('../images/02.jpeg') fixed no-repeat center/cover;
+    height: 100vh;
+    width: 100%;
+  }
+  .header-left{
+    margin-left: 20px;
+
+  }
+  .header-left img{
+    margin-top: 20px;
+    height: 60px;
+    float: left;
+  }
+    
+    
+  
+  .header-left ul{
+    margin-top: 40px;
+    display: inline-block;
+    padding: 0 10px;
+  }
+  .header-left ul{
+    
+  }
+  .header-left ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 0 10px;
+    position: relative;
+    
+    
+  }
+  .header-left ul li .color{
+    color: #C03C66;
+  }
+  .header-left ul li .color:before{
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 50px;
+    left: 10px;
+    bottom: -5px;
+    border:1px solid #C03C66;
+    
+  }
+  /*====left-header ended==*/
+  .social-icons{
+    margin-left: 300px;
+    
+
+  }
+  .social-icons ul{
+    margin-top: 40px;
+    margin-right: 150px;
+    
+  }
+  .social-icons ul li{
+    transition: .3s;
+
+    
+  }
+  .social-icons ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 0 10px;
+
+    
+  }
+  .social-icons ul li:hover{
+    transform:translateY(-5px);
+
+  }
+  .header-right .btn-header{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    height: 50px;
+    width: 180px;
+    border:2px solid #93B3B3;
+    border-radius:40px;
+    margin-top: -53px;
+    text-align: center;
+    padding-top: 10px;
+    
+    float: right;
+    margin-right: 50px;
+    transition: .3s;
+    
+  }
+  .header-right .btn-header:hover{
+    background-color:#FD4766;
+    border:none;
+    transition: .3s;
+  }
+  /*====header-right ended===*/
+  .header-content{
+    margin-top: 220px;
+    margin-left: 80px;
+
+  }
+  .header-content p{
+    font-weight: 400;
+    font-size: 15px;
+    color: #b9b3b3;
+    letter-spacing:2px;
+    
+  }
+  .header-content h1{
+    font-weight: 700;
+    font-size: 73px;
+    color: #fff;
+    padding-bottom: 20px;
+
+    
+  }
+  .header-content h1 span{
+    font-weight: 700;
+    font-size: 73px;
+    color: #fd4766;
+   
+
+    
+  }
+  .header-content h3{
+    font-weight: 700;
+    font-size: 36px;
+    color: #fff;
+    padding-bottom: 30px;
+    
+  }
+  .header-content .content-btn{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    height: 55px;
+    width: 200px;
+    border:2px solid #93B3B3;
+    border-radius:40px;
+    text-align: center;
+    padding: 13px 50px;
+    overflow: hidden;
+    transition: .3s;
+    
+  }
+  .header-content .content-btn:hover{
+    background-color:#FD4766;
+    border:none;
+    transition: .3s;
+  }
+/*...................................
+   2. Header css ended
+   ................................... */
+   /*...................................
+   3.about css started
+   ................................... */
+   .about{
+     background-color: #0E1525;
+     padding-top: 70px;
+     
+   }
+   .display{
+     z-index: 1;
+   }
+   .about-left{
+     height: 500px;
+     width: 100p%;
+   }
+   .about-left img{
+     width: 100%;
+     height:100%;
+
+   }
+   .progress{
+     height: 5px;
+   }
+   .about-right{
+     margin-left: 30px;
+     margin-top: 30px;
+   }
+   .about-content h6{
+     color: #fff;
+     text-transform: capitalize;
+
+     font-weight: 600;
+     font-size: 16px;
+    letter-spacing: .5;
+    background: linear-gradient(120deg,#1c99fe 20.69%,#7644ff 50.19%,#fd4766 79.69%);
+    background-image: linear-gradient(120deg, rgb(28, 153, 254) 20.69%, rgb(118, 68, 255) 50.19%, rgb(253, 71, 102) 79.69%);
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-color: initial;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display:inline-block;
+    }
+    .about-content h1{
+      font-weight: 600;
+      font-size: 50px;
+      text-transform: capitalize;
+      color: #fff;
+    }
+    .about-content p{
+     font-weight:300;
+     font-size: 18px;
+     color: rgba(198, 201, 216, 0.75) ;
+
+    }
+    .about-menu{
+      height:73px;
+      width:700px;
+      margin-top: 20px;
+    
+    }
+    .about-menu ul{
+    
+      
+      
+      margin-top: 5px;
+      margin-left: -20px;
+      
+    
+      border-radius:50px;
+
+    }
+    .about-menu ul li{
+      
+      border-radius:50px;
+     
+      padding: 17px 24px 17px 17px;
+      transition: .3s;
+      
+
+    }
+    .about-menu ul li a{
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 23px;
+      color: #fff;
+      text-transform: capitalize;
+      
+      text-align: center;
+      line-height: 20px;
+      
+      
+      
+    }
+    .about-menu ul .highlight{
+      background:#FD4766 ;
+      display:inline-block;
+      
+    }
+    .about-menu ul li:hover{
+      background:#FD4766 ;
+
+    }
+    .prograss-bar1{
+      margin-top: 20px;
+    }
+    .prograss-bar1 h6{
+      color:rgba(198, 201, 216, 0.75);
+      font-weight: 500;
+      font-size: 15px;
+      text-transform: capitalize;
+    }
+    .prograss-bar1 span{
+      color:rgba(198, 201, 216, 0.75);
+      float: right;
+      margin-top: -30px;
+    }
+  /*...................................
+   3. about css ended
+   ................................... */
+   /*...................................
+   4. service css started
+   ................................... */
+   .service{
+     background: #0E1525;
+   }
+   .service-content{
+     padding-top: 80px;
+   }
+   .service-content h6{
+    color: #fff;
+    text-transform: capitalize;
+    margin: 0 43%;
+    font-weight: 600;
+    font-size: 16px;
+   letter-spacing: .5;
+   background: linear-gradient(120deg,#1c99fe 20.69%,#7644ff 50.19%,#fd4766 79.69%);
+   background-image: linear-gradient(120deg, rgb(28, 153, 254) 20.69%, rgb(118, 68, 255) 50.19%, rgb(253, 71, 102) 79.69%);
+   background-position-x: initial;
+   background-position-y: initial;
+   background-size: initial;
+   background-repeat-x: initial;
+   background-repeat-y: initial;
+   background-attachment: initial;
+   background-origin: initial;
+   background-color: initial;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   display:inline-block;
+   }
+   .service-content h1{
+     font-weight: 600;
+     font-size: 50px;
+     text-transform: capitalize;
+     color: #fff;
+     text-align: center;
+   }
+   .service-content p{
+    font-weight:300;
+    font-size: 18px;
+    color: rgba(198, 201, 216, 0.75) ;
+    text-align: center;
+
+   }
+   .box{
+     background-color: #091020;
+     border-radius: 15px;
+     margin-top: 50px;
+     transition: .3s;
+   }
+   .box img{
+     margin-top: 40px;
+     margin-left: 40px;
+   }
+   .box h5{
+     font-weight: 600;
+     font-size: 20px;
+     color: #fff;
+     padding-left: 40px;
+     padding-top: 30px;
+
+   }
+   .box p{
+     font-weight: 400;
+     font-size: 18px;
+     color:rgba(198, 201, 216, 0.75) ;
+     padding-left: 40px;
+     padding-top: 30px;
+     padding-bottom:60px;
+     line-height: 24px;
+   }
+   .last-one{
+     margin-top: -40px;
+   }
+   .box:hover{
+     transform:scaleY(1.1);
+   }
+  /*...................................
+   4. service css ended
+   ................................... */
+   /*...................................
+   5. project css started
+   ................................... */
+   .project{
+     background-color: #0E1525;
+   }
+   .project-content{
+    padding-top: 80px;
+  }
+  .project-content h6{
+   color: #fff;
+   text-transform: capitalize;
+   margin: 0 43%;
+   font-weight: 600;
+   font-size: 16px;
+  letter-spacing: .5;
+  background: linear-gradient(120deg,#1c99fe 20.69%,#7644ff 50.19%,#fd4766 79.69%);
+  background-image: linear-gradient(120deg, rgb(28, 153, 254) 20.69%, rgb(118, 68, 255) 50.19%, rgb(253, 71, 102) 79.69%);
+  background-position-x: initial;
+  background-position-y: initial;
+  background-size: initial;
+  background-repeat-x: initial;
+  background-repeat-y: initial;
+  background-attachment: initial;
+  background-origin: initial;
+  background-color: initial;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display:inline-block;
+  }
+  .project-content h1{
+    font-weight: 600;
+    font-size: 50px;
+    text-transform: capitalize;
+    color: #fff;
+    text-align: center;
+  }
+  .project-content p{
+   font-weight:300;
+   font-size: 18px;
+   color: rgba(198, 201, 216, 0.75) ;
+   text-align: center;
+
+  }
+  .project1{
+    background:url("../images/11.jpeg") no-repeat center/cover;
+
+  }
+  .project2{
+    background:url("../images/12.jpeg") no-repeat center/cover;
+
+  }
+  .project3{
+    background:url("../images/13.jpeg") no-repeat center/cover;
+
+  }
+  .project4{
+    background:url("../images/14.jpeg") no-repeat center/cover;
+
+  }
+  .project5{
+    background:url("../images/15.jpeg") no-repeat center/cover;
+
+  }
+  .project6{
+    background:url("../images/16.jpeg") no-repeat center/cover;
+
+  }
+  .proj-content{
+    
+    
+    height: 100%;
+    width: 100%;
+    position: relative;
+    top: 15%;
+    text-align: center;
+    color: #fff;
+    padding: 0px 27px;
+    padding-top:350px;
+    transition: .8s;
+  
+  }
+  .single-project{
+    width: 100%;
+    height: 500px;
+    margin-top: 50px;
+    position: relative;
+    overflow: hidden;
+    display: block;
+    cursor: pointer;
+    transition: .8s;
+    border-radius: 10px;
+  }
+  .proj-content h6{
+    font-weight: 400;
+    font-size: 15px;
+    color: #fff;
+    text-align: center;
+    
+    text-transform: capitalize;
+  }
+  .proj-content h1{
+    font-weight: 600;
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    
+    text-transform: capitalize;
+  }
+  .proj-content p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    
+    text-transform: capitalize;
+  }
+  .single-project::before{
+    position: absolute;
+    content: '';
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.281);
+
+  }
+  .single-project:hover{
+    transform: scale(1.1);
+  
+  }
+  .single-project:hover .proj-content{
+    
+    top: 0;
+    background:linear-gradient(180deg,#1f448300, #fd4765ca );
+}
+  .project .btn{
+    
+      color: #fff;
+      text-decoration: none;
+      text-transform: uppercase;
+      height: 60px;
+  
+      width: 230px;
+
+     
+      background: #FD4766;
+      border-radius:40px;
+      text-align: center;
+      padding: 15px 50px;
+    
+      transition: .3s;
+      margin-top: 50px;
+      margin-left: 42%;
+      font-weight: 500;
+      margin-bottom: 30px;
+      
+      
+  }
+  .project .btn:hover{
+      color:#FD4766;
+      background-color:#0E1525;
+      border:1px solid #fd4766;
+      transition: .3s;
+    }
+
+  
+   /*...................................
+   5. project css ended
+   ................................... */
+   /*...................................
+   6. news css started
+   ................................... */
+   .news{
+    background-color: #0E1525;
+    overflow: hidden;
+  }
+  .news-content{
+   padding-top: 80px;
+ }
+ .news-content h6{
+  color: #fff;
+  text-transform: capitalize;
+  margin: 0 43%;
+  font-weight: 600;
+  font-size: 16px;
+ letter-spacing: .5;
+ background: linear-gradient(120deg,#1c99fe 20.69%,#7644ff 50.19%,#fd4766 79.69%);
+ background-image: linear-gradient(120deg, rgb(28, 153, 254) 20.69%, rgb(118, 68, 255) 50.19%, rgb(253, 71, 102) 79.69%);
+ background-position-x: initial;
+ background-position-y: initial;
+ background-size: initial;
+ background-repeat-x: initial;
+ background-repeat-y: initial;
+ background-attachment: initial;
+ background-origin: initial;
+ background-color: initial;
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+ display:inline-block;
+ }
+ .news-content h1{
+   font-weight: 600;
+   font-size: 50px;
+   text-transform: capitalize;
+   color: #fff;
+   text-align: center;
+ }
+ .news-content p{
+  font-weight:300;
+  font-size: 18px;
+  color: rgba(198, 201, 216, 0.75) ;
+  text-align: center;
+
+ }
+ .news1{
+  background:url("../images/17.jpeg") no-repeat center/cover;
+
+}
+.news2{
+  background:url("../images/18.jpeg") no-repeat center/cover;
+
+}
+.news3{
+  background:url("../images/19.jpeg") no-repeat center/cover;
+
+}
+.news-cont{
+  
+  
+  height: 100%;
+  width: 100%;
+  position: relative;
+  top: 15%;
+  text-align: center;
+  color: #fff;
+  padding: 0px 27px;
+  padding-top:320px;
+  transition: .8s;
+
+}
+.single-news{
+  width: 100%;
+  height: 500px;
+  margin-top: 50px;
+  position: relative;
+  overflow: hidden;
+  display: block;
+  cursor: pointer;
+  transition: .8s;;
+  border-radius: 10px;
+  margin-bottom: 80px;
+}
+.news-cont h6{
+  font-weight: 400;
+  font-size: 15px;
+  color: #fff;
+  text-align:left;
+  
+  text-transform: capitalize;
+}
+.news-cont h1{
+  font-weight: 500;
+  font-size: 23px;
+  color: #fff;
+  text-align:left;
+  padding-top: 10px;
+  text-transform: capitalize;
+}
+.news-cont .btn2{
+  font-weight: 400;
+  font-size: 15px;
+  color: #fff;
+  text-align:left;
+  text-decoration: none;
+  border: 1px solid #fff;
+  padding: 8px 25px;
+  border-radius: 5px;
+  float: left;
+  margin-top: 10px;
+  transition: .8s;
+  
+  text-transform:uppercase;
+}
+.news-cont .btn2:hover{
+  background: #FD4766;
+  border: none;
+}
+.single-news::before{
+  position: absolute;
+  content: '';
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.281);
+
+}
+.single-news:hover{
+  transform: scale(1.1);
+
+}
+.single-news:hover .news-cont{
+  
+  top: 0;
+  background:linear-gradient(180deg,#1f448300, #fd4765ca );
+}
+   /*...................................
+   6. news css ended
+   ................................... */
+      /*...................................
+   7.contact css started
+   ................................... */
+   .contact{
+     background: #0E1525;
+     padding-top: 30px;
+     padding-bottom: 60px;
+   }
+   .left-content h6{
+    color: #fff;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 600;
+    letter-spacing: .5; 
+    background: linear-gradient(120deg,#1c99fe 20.69%,#7644ff 50.19%,#fd4766 79.69%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;   
+    display: inline-block;
+    padding-bottom: 15px;
+   }
+   .left-content h1{
+     font-weight: 600;
+     font-size: 50px;
+     color: #fff;
+     padding-bottom: 10px;
+   }
+   .list3 ul{
+     margin-left: -25px;
+     margin-top: 10px;
+   }
+   .list3 ul li{
+     color: #757575;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 23px;
+     padding-bottom: 5px;
+   }
+   form{
+     margin-top: 60px;
+     margin-bottom: 60px;
+     border: none;
+   }
+   form input{
+     display: block;
+     margin-bottom: 18px;
+     width: 100%;
+     padding: 9px 0 9px 8px;
+     border-radius: 8px;
+     border:1px solid #757575;
+     background:transparent;
+   }
+   textarea.form-control{
+    background:transparent;
+    
+    border: 2px solid #bfbbbb47;
+    display: block;
+    margin-bottom: 18px;
+    width:100%;
+    padding: 9px 0 9px 8px;
+    border-radius: 8px;
+   }
+   .list3 ul li .conta{
+    color:rgba(255, 255, 255, 0.686);
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 26px;
+    text-decoration: none;
+    padding-left: 5px;
+  }
+   .left-content .btn3{
+    color: #fff;
+    padding: 14px 44px;
+    background-color: #fd4766;
+    border: 2px solid #fd4766;
+    border-radius: 50px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.left-content .btn3:hover{
+    border: 2px solid #fd4766;
+    color: #fd4766;
+    background-color: transparent;
+}
+.right-img img{
+  width: 90%;
+  height:600px;
+  border-radius: 10px;
+  margin-left: 20px;
+}
+ /*...................................
+  6. contact css ended
+   ................................... */ 
+     /*...................................
+   7. footer css started
+   ................................... */ 
+   footer{
+     background: #091020;
+   }
+   .footer-logo img{
+     height: 70px;
+     margin-left: 60px;
+     margin-top: 30px;
+     padding-bottom: 10px;
+   }
+   .social-icon{
+  
+   
+
+  }
+  .social-icon ul{
+    margin-top: 40px;
+    margin-right: 150px;
+    float: right;
+  
+    
+  }
+  .social-icon ul li{
+      transition: .3s;
+      display: inline-block;
+      height: 50px;
+      width: 50px;
+      border: 2px solid #bfbbbbbd;
+      border-radius: 50%;
+      padding: 12px 0;
+      color: #bfbbbbbd;
+      margin-right: 5px;
+  }
+  .social-icon ul li a{
+    margin-left: 40%;
+    margin-top: 50%;
+  }
+  .social-icon li:hover{
+      border: 2px solid #fd4766;
+      background: #fd4766;
+      color: #fff;
+      transform:translateY(-5px);
+  }
+  .copy p{
+    font-weight: normal;
+    font-size: 14px;
+    color: #757575;
+    padding-top: 50px;
+  }
+  /*...................................
+   7.footer css ended
+   ................................... */
+
